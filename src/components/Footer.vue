@@ -17,47 +17,37 @@
 </template>
 
 <style scoped lang="less">
-.header {
-  height: 85px;
-  display: flex;
-  max-width: 1100px;
+.footer {
+  border-top: 1px solid #e5e5e5;
+  max-width: 1150px;
+  width: 100%;
   margin: 0 auto;
+  height: 100px;
+  display: grid;
+  grid-auto-flow: column;
   align-items: center;
-  justify-content: space-between;
-  a {
-    color: #505050;
-    font-size: 16px;
-    margin-left: 37px;
-  }
+  justify-content: flex-start;
+  grid-template-columns: auto 1fr auto;
   .logo {
-    width: 129px;
-    height: 48px;
-    img {
-      width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #505050;
+  }
+  a {
+    font-size: 16px;
+    color: #505050;
+    margin-left: 60px;
+  }
+  .copyright {
+    justify-items: flex-end;
+    font-size: 14px;
+    color: #505050;
+    span{
+        padding-right: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #505050;
     }
-  }
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .login {
-    margin-left: 116px;
-  }
-  .login,
-  .register {
-    justify-self: flex-end;
-  }
-  .register {
-    width: 100px;
-    height: 34px;
-    border: 1px solid #19a5eb;
-    border-radius: 12px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #19a5eb;
   }
 }
 </style>
