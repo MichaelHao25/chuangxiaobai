@@ -9,7 +9,10 @@
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "ant-design-vue": "^2.2.8",
+    "autoprefixer": "^10.4.0",
     "less": "^4.1.2",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
     "vue": "^3.2.16"
   },
   "devDependencies": {

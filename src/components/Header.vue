@@ -5,7 +5,7 @@ import { Button } from "ant-design-vue";
 <template>
   <header class="header">
     <div class="logo">
-      <img src="../assets/图片 184029.png" alt="" />
+      <img src="../assets/logo.png" alt="" />
     </div>
     <div class="nav">
       <a href="#">首页</a>
